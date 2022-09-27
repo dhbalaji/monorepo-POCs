@@ -1,10 +1,11 @@
 {
-  "name": "coding-examples-blog",
+  "name": "coding-examples-blog-monorepo",
   "version": "0.0.0",
   "private": true,
   "workspaces": [
     "apps/*",
-    "packages/*"
+    "packages/*",
+    "testing-libs/*"
   ],
   "scripts": {
     "build": "turbo run build",
