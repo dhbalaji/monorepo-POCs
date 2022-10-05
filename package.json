@@ -5,13 +5,15 @@
   "workspaces": [
     "apps/*",
     "packages/*",
-    "testing-libs/*"
+    "testing-libs/*",
+    "tooling/*"
   ],
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev --parallel",
     "lint": "turbo run lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "clear": "npm exec --workspaces -- npx rimraf node_modules && npx rimraf node_modules && npm i"
   },
   "devDependencies": {
     "eslint-config-custom": "*",
