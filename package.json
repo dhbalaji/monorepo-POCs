@@ -1,5 +1,5 @@
 {
-  "name": "coding-examples-blog-monorepo",
+  "name": "poc-monorepo",
   "version": "0.0.0",
   "private": true,
   "workspaces": [
@@ -23,6 +23,5 @@
   "engines": {
     "node": ">=14.0.0"
   },
-  "dependencies": {},
   "packageManager": "npm@8.6.0"
 }
